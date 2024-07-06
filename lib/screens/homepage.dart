@@ -156,7 +156,7 @@ class _HomePageState extends State<HomePage> {
           child: Container(
             decoration: BoxDecoration(
               gradient: const LinearGradient(
-                colors: [Colors.white, Colors.teal],
+                colors: [Color(0xFFF8FBFF), Color(0xFFE8F5E9)], // very light gradient colors
                 begin: Alignment.topLeft,
                 end: Alignment.bottomRight,
               ),
